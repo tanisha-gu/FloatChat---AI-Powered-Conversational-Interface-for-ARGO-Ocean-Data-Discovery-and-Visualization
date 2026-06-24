@@ -1,4 +1,4 @@
-# 🌊 FloatChat
+#  FloatChat
 
 ### AI-Powered Conversational Interface for ARGO Ocean Data
 
@@ -6,32 +6,32 @@ FloatChat is an end-to-end system that enables users to explore and analyze ARGO
 
 ---
 
-## 🚀 Features
+##  Features
 
 * 📥 **NetCDF Data Ingestion**
 
   * Converts ARGO `.nc` files into structured tabular data
   * Stores processed data in PostgreSQL
 
-* 🗄️ **Hybrid Data Storage**
+*  **Hybrid Data Storage**
 
   * Relational DB (PostgreSQL) for structured queries
   * Vector DB (Chroma/FAISS) for semantic search
 
-* 🧠 **RAG-based Query Engine**
+*  **RAG-based Query Engine**
 
   * Converts natural language → SQL queries
   * Retrieves contextual metadata using embeddings
   * Generates intelligent responses using LLMs
 
-* 💬 **Chat Interface**
+*  **Chat Interface**
 
   * Ask questions like:
 
     * *"Show salinity profiles near the equator in March 2023"*
     * *"Compare BGC parameters in the Arabian Sea"*
 
-* 📊 **Interactive Dashboard**
+*  **Interactive Dashboard**
 
   * Geospatial visualization (Mapbox)
   * Tabular results
@@ -39,7 +39,7 @@ FloatChat is an end-to-end system that enables users to explore and analyze ARGO
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 FloatChat/

@@ -8,7 +8,7 @@ FloatChat is an end-to-end system that enables users to explore and analyze ARGO
 
 ##  Features
 
-* 📥 **NetCDF Data Ingestion**
+*  **NetCDF Data Ingestion**
 
   * Converts ARGO `.nc` files into structured tabular data
   * Stores processed data in PostgreSQL

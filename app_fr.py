@@ -1,14 +1,17 @@
+#import file
 import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
 
+#API URL
 API_URL = "http://localhost:8000/chat"
-
+#Name
 st.title("🌊 FloatChat - ARGO Data Explorer")
 
 query = st.text_input("Ask your question:")
 
+# Submit button 
 if st.button("Submit"):
     response = requests.post(API_URL, json={"query": query}).json()
 

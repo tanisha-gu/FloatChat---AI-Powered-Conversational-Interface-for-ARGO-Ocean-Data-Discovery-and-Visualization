@@ -8,7 +8,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 
 #document 
 documents = []
-
+#ui uploaded 
 index = faiss.IndexFlatL2(384)
 #add documents 
 def add_documents(docs):
